@@ -4,14 +4,14 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class DeviceController extends Controller
+class DeviceProfileController extends Controller
 {
     /**
      * Display a listing of the resource.
      */
     public function index()
     {
-        return view('device.index');
+        return view('deviceprofile.index');
     }
 
     /**
@@ -19,7 +19,7 @@ class DeviceController extends Controller
      */
     public function create()
     {
-       //
+        //
     }
 
     /**
@@ -27,7 +27,7 @@ class DeviceController extends Controller
      */
     public function store(Request $request)
     {
-        return dd($request->all());
+        //
     }
 
     /**
@@ -61,5 +61,4 @@ class DeviceController extends Controller
     {
         //
     }
-
 }

@@ -8,7 +8,9 @@
             </div>
             <div class="modal-body">
             </div>
-
+            <div class="modal-footer">
+                <input type="button" value="Save" id="ModalSaveButton" class="btn btn-outline-primary">
+            </div>
         </div>
     </div>
 </div>

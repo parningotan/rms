@@ -6,7 +6,10 @@
         <p class="h4 text-secondary my-0">Device Management</p>
         <ul class="nav ms-auto">
             <li class="nav-item">
-                <a class="btn btn-outline-primary d-flex align-items-center" href="#newProfileModal" data-url="{{route('deviceProfile.index')}}"><span class="material-symbols-outlined me-1">add</span>New Profile</a>
+                <a class=" nav-link d-flex align-items-center" href="#newProfileModal" data-url="{{route('deviceProfile.index')}}"><span class="material-symbols-outlined me-1">add</span>New Profile</a>
+            </li>
+            <li class="nav-item">
+                <a class=" nav-link d-flex align-items-center" href="#newBrandModal" data-url="{{route('brand.create')}}"><span class="material-symbols-outlined me-1">add</span>New Brand</a>
             </li>
         </ul>
     </div>
